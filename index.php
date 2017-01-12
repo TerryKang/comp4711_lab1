@@ -37,7 +37,7 @@ and open the template in the editor.
         $students['a456'] = $second;
 
 
-        //Add myself
+        //Add student record of myself
         $myself = new Student();
         $myself->surname = "Kang";
         $myself->first_name = "Terry";
