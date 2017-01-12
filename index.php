@@ -36,6 +36,8 @@ and open the template in the editor.
         $second->add_grade(50);
         $students['a456'] = $second;
 
+
+        //Add myself
         $myself = new Student();
         $myself->surname = "Kang";
         $myself->first_name = "Terry";
@@ -50,7 +52,6 @@ and open the template in the editor.
         $myself->add_grade(83);
         $students['a00937143'] = $myself;
         
-
 
         ksort($students); // one of the many sort functions
 
